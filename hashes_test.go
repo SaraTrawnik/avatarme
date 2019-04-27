@@ -29,6 +29,6 @@ func TestUniqueHash(t *testing.T) {
 
   g, err := UniqueHash([]byte{})
   if err == nil {
-    t.Errorf("UniqueHash([]byte{}) = %d, want Error about empty array, g)
+    t.Errorf("UniqueHash([]byte{}) = %d, want Error about empty array", g)
   }
 }
